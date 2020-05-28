@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FifthActivity">
+
+    <LinearLayout
+        android:layout_width="332dp"
+        android:layout_height="569dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="48dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            app:srcCompat="@drawable/grape" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@android:style/Widget.Material.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:text="A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis.  Grapes can be eaten fresh as table grapes or they can be used for making wine, jam, grape juice, jelly, grape seed extract, raisins, vinegar, and grape seed oil. Grapes are a non-climacteric type of fruit, generally occurring in clusters."
+            android:textSize="24sp"
+            android:textStyle="italic"
+            tools:targetApi="lollipop" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SixthActivity">
+
+    <LinearLayout
+        android:layout_width="332dp"
+        android:layout_height="569dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="48dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            app:srcCompat="@drawable/mandarin" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@android:style/Widget.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="383dp"
+            android:text="The mandarin orange (Citrus reticulata), also known as the mandarin or mandarine, is a small citrus tree with fruit resembling other oranges, usually eaten plain or in fruit salads. The tangerine is a group of orange-coloured citrus fruit consisting of hybrids of mandarin orange.  Mandarins are smaller and oblate, rather than spherical, like the common oranges (which are a mandarin hybrid). The taste is considered less sour, as well as sweeter and stronger."
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

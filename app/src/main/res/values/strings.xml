@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LAB2</string>
+    <string name="empty">Empty</string>
+    <string name="click_on_me">Click on me</string>
+    <string name="write_something">Write something</string>
+    <string name="hello_click_this_button_to_see_the_list_of_fruits">Hello! Click this button to see the list of fruits.</string>
+</resources>
